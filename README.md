@@ -245,6 +245,10 @@
     ```
 
     -Adjunto foto de la página en la web
+      - Prueba de que pide autenticación
+![alt text](images/pruebaAutentificacionAdmin.png)
+
+      - Autentificación correcta
 ![alt text](images/paginaAdmin.png)
 
 
@@ -282,10 +286,17 @@
 
 
     - Página de la ruta /status con la información del servidor
+      - Prueba de que pide autenticación
+![alt text](images/pruebaAutentificacionStatus.png)
+
+      - Autentificación correcta
 ![alt text](images/paginaStatus.png)
 
     - Y por último para que se descargue el logo he creado este archivo para forzar que al entrar en la ruta /logo.png se descargue el logo
 ![alt text](images/archivoLogo.png)
+
+      - Prueba de que se descarga el logo
+![alt text](images/pruebaDescargaLogo.png)
 
 
 ### Y esta seria la configuración para tener un servidor web creado con apache2 y vinculado al dominio hosting.aroldan.org
