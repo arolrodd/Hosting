@@ -4,7 +4,7 @@
 
 1. Compramos un dominio en IONOS (adjunto foto del menu de IONOS con el dominio ya comprado)
 
-![alt text](images/menuPrincipalIONOS.png)
+![alt text](images/menuPrincipalONOS.png)
 
 
 2. Configuramos la ApiKey de IONOS
@@ -19,7 +19,7 @@
 ![alt text](images/nombreApi.png)
 
   - Registro de la nueva ApiKey ya creada
-![alt text](images/registroApiCreadaIONOS.png)
+![alt text](images/registroAPiCreadaIONOS.png)
 
 
 3. Configuramos el Dynamic Dns de IONOS
@@ -42,7 +42,7 @@
 ![alt text](images/horarioRepeticionActualizacionDns.png)
 
     - En la acción de la tarea agregamos como argumento la url de la respuesta de la request de activación de dynamic DNS con la url para actualizar la Ip asociada a nuestro dominio
-![alt text](images/accionTareaActualizarDns.png)
+![alt text](images/acccionTareaActualizarDns.png)
 
   - Foto de la tarea ya configurada
 ![alt text](images/TareaProgramada.png)
@@ -252,31 +252,30 @@
 
     ```html
     <!DOCTYPE html>
-  <html lang="es">
-  <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>404 - Page Not Found</title>
-      <style>
-          body {
-              font-family: Arial, sans-serif;
-              text-align: center;
-              padding: 50px;
-              background-color: #f8d7da;
-              color: #721c24;
-          }
-          h1 {
-              font-size: 50px;
-          }
-      </style>
-  </head>
-  <body>
-      <h1>404</h1>
-      <p>The page you're looking for doesn't exist.</p>
-      <p><a href="/">Go Back to Home</a></p>
-  </body>
-  </html>
-
+      <html lang="es">
+      <head>
+          <meta charset="UTF-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <title>404 - Page Not Found</title>
+          <style>
+              body {
+                  font-family: Arial, sans-serif;
+                  text-align: center;
+                  padding: 50px;
+                  background-color: #f8d7da;
+                  color: #721c24;
+              }
+              h1 {
+                  font-size: 50px;
+              }
+          </style>
+      </head>
+      <body>
+          <h1>404</h1>
+          <p>The page you're looking for doesn't exist.</p>
+          <p><a href="/">Go Back to Home</a></p>
+      </body>
+      </html>
     ```
     - Página de error 404 en la web
 ![alt text](images/paginaError404.png)
