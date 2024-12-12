@@ -9,6 +9,10 @@ Vagrant.configure("2") do |config|
     vb.vm.provision "shell", inline: <<-SHELL
       sudo apt update
       sudo apt install -y apache2
+      sudo apt install ufw
+
+      sudo ufw allow 80/tcp
+      sudo ufw allow 443/tcp
 
 
       # Iniciar Apache
