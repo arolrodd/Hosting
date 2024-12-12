@@ -4,7 +4,7 @@ Vagrant.configure("2") do |config|
   config.vm.define "vb" do |vb|
 
     vb.vm.network "forwarded_port", guest: 80, host: 8080
-    vb.vm.network "private_network", ip: "192.168.57.20"
+    vb.vm.network "public_network", ip: "192.168.210.100"
 
     vb.vm.provision "shell", inline: <<-SHELL
       sudo apt update
